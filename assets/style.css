@@ -21,3 +21,16 @@ body{
 #about,#news,#content{
     background-color: #000000;
 }
+
+.menu-area{
+    /* position: static; */
+}
+
+.mega-area{
+    background-color: #171717;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 15px;
+}
