@@ -1,0 +1,23 @@
+body{
+    font-family: helvetica;
+    color: white;
+}
+.navbar {
+    background-color: #171717;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    background-color: #171717;
+}
+
+.card{
+    background-color: transparent;
+}
+.card:hover{
+    background-color: #171717 !important;
+}
+
+#about,#news,#content{
+    background-color: #000000;
+}
