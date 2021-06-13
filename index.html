@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/style.css">
 
-    <title>Hello, world!</title>
+    <title>Welcome</title>
 </head>
 
 <body>
@@ -35,63 +35,138 @@
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Login</a>
                     </li>
-                    <li class="nav-item dropdown menu-area">
-                        <a class="nav-link text-white dropdown-toggle" href="#" id="mega-one" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="nav-item ">
+                        <a class="nav-link text-white dropdown-toggle" data-bs-toggle="collapse" href="#collapse1"
+                            id="mega-one" role="button" aria-controls="collapse1" aria-expanded="false">
                             Our Link
                         </a>
-                        <div class="dropdown-menu mega-area" aria-labelledby="mega-one">
+                        <div class="collapse mega-area" aria-labelledby="mega-one" id="collapse1">
                             <div class="container text-white">
 
                                 <div class="row">
                                     <div class="col-md-6 col-lg-4">
                                         <div class="row">
-                                            <div class="col-4"><a class="dropdown-item text-white" href="">Category
+                                            <div class="col-4"><a class="dropdown-item text-white" data-bs-toggle="tab"
+                                                    href="#category1">Category
                                                     1</a></div>
-                                            <div class="col-4"><a class="dropdown-item text-white" href="">Category
-                                                    1</a></div>
-                                            <div class="col-4"><a class="dropdown-item text-white" href="">Category
-                                                    1</a></div>
+                                            <div class="col-4"><a class="dropdown-item text-white" data-bs-toggle="tab"
+                                                    href="#category2">Category
+                                                    2</a></div>
+                                            <div class="col-4"><a class="dropdown-item text-white" data-bs-toggle="tab"
+                                                    href="#category3">Category
+                                                    3</a></div>
                                         </div>
                                     </div>
-
                                 </div>
                                 <hr style="border: 1px solid white;">
-                                <div class="row my-3 justify-content-center">
-                                    <div class="col-4 text-start">
-                                        <a class="dropdown-item text-white" href="#">Action</a>
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="category1">
+                                        <div class="row my-3 justify-content-center">
+                                            <div class="col-4 text-start">
+                                                <a class="dropdown-item text-white" href="#">Action</a>
+                                            </div>
+                                            <div class="col-4 text-center">
+                                                <a class="dropdown-item text-white" href="#">Action</a>
+                                            </div>
+                                            <div class="col-4 text-end">
+                                                <a class="dropdown-item text-white" href="#">Action</a>
+                                            </div>
+                                        </div>
+                                        <div class="row my-3 justify-content-center">
+                                            <div class="col-4 text-start">
+                                                <a class="dropdown-item text-white" href="#">Action</a>
+                                            </div>
+                                            <div class="col-4 text-center">
+                                                <a class="dropdown-item text-white" href="#">Action</a>
+                                            </div>
+                                            <div class="col-4 text-end">
+                                                <a class="dropdown-item text-white" href="#">Action</a>
+                                            </div>
+                                        </div>
+                                        <div class="row my-3 justify-content-center">
+                                            <div class="col-4 text-start">
+                                                <a class="dropdown-item text-white" href="#">Action</a>
+                                            </div>
+                                            <div class="col-4 text-center">
+                                                <a class="dropdown-item text-white" href="#">Action</a>
+                                            </div>
+                                            <div class="col-4 text-end">
+                                                <a class="dropdown-item text-white" href="#">Action</a>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-4 text-center">
-                                        <a class="dropdown-item text-white" href="#">Action</a>
+                                    <div class="tab-pane" id="category2">
+                                        <div class="row my-3 justify-content-center">
+                                            <div class="col-4 text-start">
+                                                <a class="dropdown-item text-white" href="#">Action 2</a>
+                                            </div>
+                                            <div class="col-4 text-center">
+                                                <a class="dropdown-item text-white" href="#">Action 2</a>
+                                            </div>
+                                            <div class="col-4 text-end">
+                                                <a class="dropdown-item text-white" href="#">Action 2</a>
+                                            </div>
+                                        </div>
+                                        <div class="row my-3 justify-content-center">
+                                            <div class="col-4 text-start">
+                                                <a class="dropdown-item text-white" href="#">Action 2</a>
+                                            </div>
+                                            <div class="col-4 text-center">
+                                                <a class="dropdown-item text-white" href="#">Action 2</a>
+                                            </div>
+                                            <div class="col-4 text-end">
+                                                <a class="dropdown-item text-white" href="#">Action 2</a>
+                                            </div>
+                                        </div>
+                                        <div class="row my-3 justify-content-center">
+                                            <div class="col-4 text-start">
+                                                <a class="dropdown-item text-white" href="#">Action 2</a>
+                                            </div>
+                                            <div class="col-4 text-center">
+                                                <a class="dropdown-item text-white" href="#">Action 2</a>
+                                            </div>
+                                            <div class="col-4 text-end">
+                                                <a class="dropdown-item text-white" href="#">Action 2</a>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-4 text-end">
-                                        <a class="dropdown-item text-white" href="#">Action</a>
-                                    </div>
-                                </div>
-                                <div class="row my-3 justify-content-center">
-                                    <div class="col-4 text-start">
-                                        <a class="dropdown-item text-white" href="#">Action</a>
-                                    </div>
-                                    <div class="col-4 text-center">
-                                        <a class="dropdown-item text-white" href="#">Action</a>
-                                    </div>
-                                    <div class="col-4 text-end">
-                                        <a class="dropdown-item text-white" href="#">Action</a>
-                                    </div>
-                                </div>
-                                <div class="row my-3 justify-content-center">
-                                    <div class="col-4 text-start">
-                                        <a class="dropdown-item text-white" href="#">Action</a>
-                                    </div>
-                                    <div class="col-4 text-center">
-                                        <a class="dropdown-item text-white" href="#">Action</a>
-                                    </div>
-                                    <div class="col-4 text-end">
-                                        <a class="dropdown-item text-white" href="#">Action</a>
+                                    <div class="tab-pane" id="category3">
+                                        <div class="row my-3 justify-content-center">
+                                            <div class="col-4 text-start">
+                                                <a class="dropdown-item text-white" href="#">Action 3</a>
+                                            </div>
+                                            <div class="col-4 text-center">
+                                                <a class="dropdown-item text-white" href="#">Action 3</a>
+                                            </div>
+                                            <div class="col-4 text-end">
+                                                <a class="dropdown-item text-white" href="#">Action 3</a>
+                                            </div>
+                                        </div>
+                                        <div class="row my-3 justify-content-center">
+                                            <div class="col-4 text-start">
+                                                <a class="dropdown-item text-white" href="#">Action 3</a>
+                                            </div>
+                                            <div class="col-4 text-center">
+                                                <a class="dropdown-item text-white" href="#">Action 3</a>
+                                            </div>
+                                            <div class="col-4 text-end">
+                                                <a class="dropdown-item text-white" href="#">Action 3</a>
+                                            </div>
+                                        </div>
+                                        <div class="row my-3 justify-content-center">
+                                            <div class="col-4 text-start">
+                                                <a class="dropdown-item text-white" href="#">Action 3</a>
+                                            </div>
+                                            <div class="col-4 text-center">
+                                                <a class="dropdown-item text-white" href="#">Action 3</a>
+                                            </div>
+                                            <div class="col-4 text-end">
+                                                <a class="dropdown-item text-white" href="#">Action 3</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </li>
                 </ul>
@@ -101,7 +176,7 @@
                             aria-expanded="false">
                             <i class="bi bi-search"></i>
                         </a>
-                        <div class="dropdown-menu mega-area" aria-labelledby="search">
+                        <div class="dropdown-menu mega-area" aria-labelledby="search" style="margin-top: 0!important;">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-11">
@@ -112,7 +187,19 @@
                                                 class="bi bi-search"></i></button>
                                     </div>
                                 </div>
+                                <div class="row mt-3">
+                                    <div class="col-md-6 col-lg-4">
+                                        <div class="row">
+                                            <div class="col-4"><a class="dropdown-item text-white" data-bs-toggle="tab" href="#category1">Category
+                                                    1</a></div>
+                                            <div class="col-4"><a class="dropdown-item text-white" data-bs-toggle="tab" href="#category2">Category
+                                                    2</a></div>
+                                            <div class="col-4"><a class="dropdown-item text-white" data-bs-toggle="tab" href="#category3">Category
+                                                    3</a></div>
+                                        </div>
+                                    </div>
                             </div>
+                            <hr style="border: 1px solid white;">
                         </div>
                     </div>
                 </div>
@@ -124,6 +211,11 @@
     <!-- Jumbotron -->
     <section class="jumbotron px-4 py-5 text-center">
         <div class="container pt-5">
+            <div class="row">
+                <div class="col">
+                    <img class="d-block mx-auto mb-4 img-thumnail" src="assets/img/" alt="" width="72" height="57">
+                </div>
+            </div>
             <div class="row">
                 <div class="col">
                     <h1 class="lead">Welcome to ABCD</h1>
@@ -150,10 +242,10 @@
     <div id="content">
         <div class="container  pt-5">
             <div class="row">
-                <div class="col">
-                    <div class="row">
-                        <p class="lead ms-3">Anouncement</p>
-                    </div>
+                <p class="lead ms-3">Anouncement</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
                     <div class="row">
                         <div class="card rounded">
                             <div class="card-body">
@@ -193,9 +285,9 @@
                         </a>
                     </div>
                 </div>
-                <div class="col">
-                    <img src="https://img.freepik.com/free-vector/colorful-palm-silhouettes-background_23-2148541792.jpg?size=626&ext=jpg"
-                        class="rounded float-right" alt="">
+                <div class="col-lg-6 align-self-center">
+                    <img src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//83/MTA-12231604/no_brand_sudah_ada_lem_nya-_3d_wallpaper_custom_photo_mural-_walpaper_dinding_ruang_tamu_gambar_air_terjun_terbaru_full01_h9z6fy96.jpg"
+                        class="rounded img-fluid float-md-end" alt="" style="max-height: 400px;">
                 </div>
 
             </div>

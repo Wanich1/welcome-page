@@ -37,7 +37,15 @@ body{
     left: 0;
     right: 0;
     border: 0;
-    margin-top: 0!important;
+    margin-top: 10px!important;
     border-radius: 0;
     padding: 15px;
+}
+
+#news a{
+    text-decoration: none;
+}
+
+#news a:hover{
+    text-decoration: underline;
 }
