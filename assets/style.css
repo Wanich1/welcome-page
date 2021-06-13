@@ -42,10 +42,19 @@ body{
     padding: 15px;
 }
 
-#news a{
+.mega-area a{
+    text-decoration: none;
+
+}
+
+.mega-area a:hover{
+    text-decoration: underline;
+}
+
+#content a,#news a{
     text-decoration: none;
 }
 
-#news a:hover{
+#content a:hover,#news a:hover{
     text-decoration: underline;
 }
