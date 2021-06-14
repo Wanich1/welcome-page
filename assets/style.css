@@ -51,6 +51,10 @@ body{
     text-decoration: underline;
 }
 
+#tablist{
+    
+}
+
 #content a,#news a{
     text-decoration: none;
 }

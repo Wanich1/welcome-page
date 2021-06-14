@@ -42,25 +42,24 @@
                         </a>
                         <div class="collapse mega-area" aria-labelledby="mega-one" id="collapse1">
                             <div class="container text-white">
-
                                 <div class="row">
                                     <div class="col-md-6 col-lg-4">
-                                        <div class="row">
-                                            <div class="col-4"><a class="text-white" data-bs-toggle="tab"
-                                                    href="#category1">Category
-                                                    1</a></div>
-                                            <div class="col-4"><a class="text-white" data-bs-toggle="tab"
-                                                    href="#category2">Category
-                                                    2</a></div>
-                                            <div class="col-4"><a class="text-white" data-bs-toggle="tab"
-                                                    href="#category3">Category
-                                                    3</a></div>
+                                        <div class="row nav" id="tablist" >
+                                            <div class="col-4"><button class="nav-link btn btn-outline text-white" data-bs-toggle="tab" type="button" role="tab"
+                                                    data-bs-target="#category1" aria-controls="#category1" id="tab-category1">Category
+                                                    1</button></div>
+                                            <div class="col-4"><button class="nav-link btn btn-outline text-white" data-bs-toggle="tab" type="button" role="tab"
+                                                    data-bs-target="#category2" aria-controls="#category2" id="tab-category2">Category
+                                                    2</button></div>
+                                            <div class="col-4"><button class="nav-link btn btn-outline text-white" data-bs-toggle="tab" type="button" role="tab"
+                                                    data-bs-target="#category3" aria-controls="#category3" id="tab-category3">Category
+                                                    3</button></div>
                                         </div>
                                     </div>
                                 </div>
                                 <hr style="border: 1px solid white;">
                                 <div class="tab-content">
-                                    <div class="tab-pane active" id="category1">
+                                    <div class="tab-pane active" id="category1" role="tabpanel" aria-labelledby="tab-category1">
                                         <div class="row my-3 justify-content-center">
                                             <div class="col-4 text-start">
                                                 <a class="text-white" href="#">Action</a>
@@ -95,7 +94,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="tab-pane" id="category2">
+                                    <div class="tab-pane" id="category2" role="tabpanel" aria-labelledby="tab-category2">
                                         <div class="row my-3 justify-content-center">
                                             <div class="col-4 text-start">
                                                 <a class="text-white" href="#">Action 2</a>
@@ -130,7 +129,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="tab-pane" id="category3">
+                                    <div class="tab-pane" id="category3" role="tabpanel" aria-labelledby="tab-category3">
                                         <div class="row my-3 justify-content-center">
                                             <div class="col-4 text-start">
                                                 <a class="text-white" href="#">Action 3</a>
