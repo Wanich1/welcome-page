@@ -51,8 +51,12 @@ body{
     text-decoration: underline;
 }
 
-#tablist{
-    
+#tab-category1:focus,#tab-category2:focus,#tab-category3:focus{
+    box-shadow: none;
+}
+
+#tab-category1:hover,#tab-category2:hover,#tab-category3:hover{
+    text-decoration: underline;
 }
 
 #content a,#news a{
